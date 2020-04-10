@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+.wrap {
+    width: 390px;
+    height: 390px;
+    margin: 50px auto;
+    padding: 0;
+    display: block;
+}
+.row {
+    display: block;
+    height: 120px;
+}
+.cell {
+    float: left;
+    display: block;
+    background-color: #ccc;
+    width: 120px;
+    height: 100%;
+    border: 5px solid #fff;
+}
+.cell:hover {
+    background-color: #bab7b4;
+}
+.cell-x {    
+    background-image: url('../img/x.png');
+    background-position: center center;   
+    background-repeat: no-repeat;   
+}
+.cell-o {
+    background-image: url("../img/o.png");
+    background-position: center center;   
+    background-repeat: no-repeat; 
+}
